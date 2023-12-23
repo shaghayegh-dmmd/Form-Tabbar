@@ -720,13 +720,13 @@ input[type="checkbox"]:checked::before{
             }
         });
 
-        $(".next-step").click(function (e) {
+        //$(".next-step").click(function (e) {
 
-            var active = $('.wizard .nav-tabs li.active');
-            active.next().removeClass('disabled');
-            nextTab(active);
+        //    var active = $('.wizard .nav-tabs li.active');
+        //    active.next().removeClass('disabled');
+        //    nextTab(active);
 
-        });
+        //});
         $(".prev-step").click(function (e) {
 
             var active = $('.wizard .nav-tabs li.active');
@@ -743,10 +743,10 @@ input[type="checkbox"]:checked::before{
     }
 
 
-    $('.nav-tabs').on('click', 'li', function () {
-        $('.nav-tabs li.active').removeClass('active');
+    //$('.nav-tabs').on('click', 'li', function () {
+    //    $('.nav-tabs li.active').removeClass('active' && 'disabled');
        
-        $(this).addClass('active');
-    });
+    //    $(this).addClass('active');
+    //});
 
 </script>
