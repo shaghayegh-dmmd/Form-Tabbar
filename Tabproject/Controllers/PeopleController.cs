@@ -54,7 +54,8 @@ namespace Tabproject.Controllers
             {
                 db.People.Add(person);
                 await db.SaveChangesAsync();
-                return RedirectToAction("Index");
+                //return RedirectToAction("Index");
+                return new HttpStatusCodeResult(HttpStatusCode.Created);
             }
 
             return View(person);

@@ -98,8 +98,8 @@ C:\Users\sh.dostmohamadi\Desktop\Tabproject\Tabproject\Tabproject\bin\sv-SE\Kend
 C:\Users\sh.dostmohamadi\Desktop\Tabproject\Tabproject\Tabproject\bin\tr-TR\Kendo.Mvc.resources.dll
 C:\Users\sh.dostmohamadi\Desktop\Tabproject\Tabproject\Tabproject\bin\uk-UA\Kendo.Mvc.resources.dll
 C:\Users\sh.dostmohamadi\Desktop\Tabproject\Tabproject\Tabproject\bin\zh-CN\Kendo.Mvc.resources.dll
-C:\Users\sh.dostmohamadi\Desktop\Tabproject\Tabproject\Tabproject\obj\Debug\Tabproject.csprojAssemblyReference.cache
 C:\Users\sh.dostmohamadi\Desktop\Tabproject\Tabproject\Tabproject\obj\Debug\Tabproject.csproj.CoreCompileInputs.cache
 C:\Users\sh.dostmohamadi\Desktop\Tabproject\Tabproject\Tabproject\obj\Debug\Tabproject.csproj.CopyComplete
 C:\Users\sh.dostmohamadi\Desktop\Tabproject\Tabproject\Tabproject\obj\Debug\Tabproject.dll
 C:\Users\sh.dostmohamadi\Desktop\Tabproject\Tabproject\Tabproject\obj\Debug\Tabproject.pdb
+C:\Users\sh.dostmohamadi\Desktop\Tabproject\Tabproject\Tabproject\obj\Debug\Tabproject.csprojAssemblyReference.cache
