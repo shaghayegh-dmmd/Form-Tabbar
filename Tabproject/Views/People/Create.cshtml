@@ -704,75 +704,76 @@ input[type="checkbox"]:checked::before{
                             {
                                 @Html.AntiForgeryToken()
 
-                                <div class="form-horizontal">
+                        <div class="form-horizontal">
 
-                                    <hr />
-                                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-4" })
-                                                <div class="col-md-10">
-                                                    @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
-                                                    @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                @Html.LabelFor(model => model.LastName, htmlAttributes: new { @class = "control-label col-md-4" })
-                                                <div class="col-md-10">
-                                                    @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { @class = "form-control" } })
-                                                    @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                @Html.LabelFor(model => model.NationalCode, htmlAttributes: new { @class = "control-label col-md-4" })
-                                                <div class="col-md-10">
-                                                    @Html.EditorFor(model => model.NationalCode, new { htmlAttributes = new { @class = "form-control" } })
-                                                    @Html.ValidationMessageFor(model => model.NationalCode, "", new { @class = "text-danger" })
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                @Html.LabelFor(model => model.Score, htmlAttributes: new { @class = "control-label col-md-4" })
-                                                <div class="col-md-10">
-                                                    @Html.EditorFor(model => model.Score, new { htmlAttributes = new { @class = "form-control" } })
-                                                    @Html.ValidationMessageFor(model => model.Score, "", new { @class = "text-danger" })
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                @Html.LabelFor(model => model.RequestDate, htmlAttributes: new { @class = "control-label col-md-4" })
-                                                <div class="col-md-10">
-                                                    @Html.EditorFor(model => model.RequestDate, new { htmlAttributes = new { @class = "form-control" } })
-                                                    @Html.ValidationMessageFor(model => model.RequestDate, "", new { @class = "text-danger" })
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                @Html.LabelFor(model => model.DecisionProposal, htmlAttributes: new { @class = "control-label col-md-4" })
-                                                <div class="col-md-10">
-                                                    <div class="checkbox">
-                                                        @Html.EditorFor(model => model.DecisionProposal, new { htmlAttributes = new { @class = "form-control" } })
-                                                        @Html.ValidationMessageFor(model => model.DecisionProposal, "", new { @class = "text-danger" })
-                                                    </div>
-                                                </div>
-
-                                            </div>
+                            <hr />
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-4" })
+                                        <div class="col-md-10">
+                                            @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                                            @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
                                         </div>
                                     </div>
-
-                                    <ul class="list-inline">
-                                        <li><button type="submit" value="Create" class="default-btn next-step">ادامه</button></li>
-                                    </ul>
-
                                 </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        @Html.LabelFor(model => model.LastName, htmlAttributes: new { @class = "control-label col-md-4" })
+                                        <div class="col-md-10">
+                                            @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { @class = "form-control" } })
+                                            @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        @Html.LabelFor(model => model.NationalCode, htmlAttributes: new { @class = "control-label col-md-4" })
+                                        <div class="col-md-10">
+                                            @Html.EditorFor(model => model.NationalCode, new { htmlAttributes = new { @class = "form-control" } })
+                                            @Html.ValidationMessageFor(model => model.NationalCode, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        @Html.LabelFor(model => model.Score, htmlAttributes: new { @class = "control-label col-md-4" })
+                                        <div class="col-md-10">
+                                            @Html.EditorFor(model => model.Score, new { htmlAttributes = new { @class = "form-control" } })
+                                            @Html.ValidationMessageFor(model => model.Score, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        @Html.LabelFor(model => model.RequestDate, htmlAttributes: new { @class = "control-label col-md-4" })
+                                        <div class="col-md-10">
+                                            @Html.EditorFor(model => model.RequestDate, new { htmlAttributes = new { @class = "form-control" } })
+                                            @Html.ValidationMessageFor(model => model.RequestDate, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        @Html.LabelFor(model => model.DecisionProposal, htmlAttributes: new { @class = "control-label col-md-4" })
+                                        <div class="col-md-10">
+                                            <div class="checkbox">
+                                                @Html.EditorFor(model => model.DecisionProposal, new { htmlAttributes = new { @class = "form-control" } })
+                                                @Html.ValidationMessageFor(model => model.DecisionProposal, "", new { @class = "text-danger" })
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#strategy" aria-controls="strategy" role="tab" data-toggle="tab">
+                                <ul class="list-inline">
+
+                                    <li><button type="submit" value="Create" class="default-btn next-step">ادامه</button></li>
+                                </ul>
+                            </a>
+                        </div>
                             }
                         </div>
                     </div>
@@ -822,7 +823,9 @@ input[type="checkbox"]:checked::before{
                             <ul class="list-inline">
                                 <li><button type="button" class="default-btn prev-step">برگشت</button></li>
                                 <li><button type="button" class="default-btn next-step skip-btn">لغو</button></li>
-                                <li><button type="button" class="default-btn next-step">ادامه</button></li>
+                                <a href="#optimization" aria-controls="optimization" role="tab" data-toggle="tab">
+                                    <li><button type="button" class="default-btn next-step">ادامه</button></li>
+                                    </a>
                             </ul>
                         </div>
                     </div>
@@ -874,7 +877,9 @@ input[type="checkbox"]:checked::before{
                             <ul class="list-inline">
                                 <li><button type="button" class="default-btn prev-step">برگشت</button></li>
                                 <li><button type="button" class="default-btn next-step skip-btn">لغو</button></li>
-                                <li><button type="button" class="default-btn next-step">ادامه</button></li>
+                                <a href="#content" aria-controls="content" role="tab" data-toggle="tab">
+                                    <li><button type="button" class="default-btn next-step">ادامه</button></li>
+                                    </a>
                             </ul>
                         </div>
                     </div>

@@ -117,7 +117,15 @@ namespace Tabproject.Controllers
             await db.SaveChangesAsync();
             return RedirectToAction("Index");
         }
-
+        public ActionResult FileType()
+        {
+            var req = new List<SelectListItem>
+            {
+                new SelectListItem {Text="آموزش", Value="Learn"},
+                new SelectListItem {Text="فنی", Value="Tech"}
+            };
+            return Json(req, JsonRequestBehavior.AllowGet);
+        }
         protected override void Dispose(bool disposing)
         {
             if (disposing)
