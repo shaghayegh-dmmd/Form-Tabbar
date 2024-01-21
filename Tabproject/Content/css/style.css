@@ -320,7 +320,10 @@ div#grid {
 
 @media only screen and (max-width:600px) {
 
-
+    .custom-file {
+        width: 100% !important;
+       
+    }
     .main-sidebar {
         width: 30% !important;
     }
